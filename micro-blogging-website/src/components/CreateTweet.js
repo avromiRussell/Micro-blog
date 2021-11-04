@@ -17,8 +17,9 @@ export default function CreateTweet({addTweet}) {
     }
 
     const handleTextChange = (e) => {
-        setText(e.target.value)
-        if(text.length > 140){
+        const tweet = e.target.value;
+        setText(tweet)
+        if(tweet ===""|| tweet.length > 140){
             setIsDisabled(true)
         }else {
             setIsDisabled(false)
