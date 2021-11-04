@@ -1,0 +1,8 @@
+{
+  "name": "Micro-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/avromiRussell/Micro-blog.git",
+  "author": "Avromi <avromirussell@gmail.com>",
+  "license": "MIT"
+}
